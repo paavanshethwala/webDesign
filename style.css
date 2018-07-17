@@ -1,0 +1,133 @@
+body,html {
+  margin:0;
+  padding:0;
+  color:#000;
+  background:#a7a09a;
+}
+#wrap {
+  width:950px;
+  margin:auto;
+  background:#0d3880;
+}
+#sidebar {
+  float:right;
+  width:230px;
+  padding:10px;
+  background:#0d3880;
+}
+#main {
+  float:left;
+  width:680px;
+  padding:10px;
+  background:#F5FFFA;
+}
+
+h1 {
+  display: block;
+  margin:0px;
+  background: #E61A70;
+  color: #FFFFFF;
+}
+
+h2 {
+  margin:0 0 1em;
+  font: 150px existence;
+}
+
+#footer {
+ clear:both;
+ padding:5px 10px;
+ background:#444;
+ color: white;
+}
+#footer p {
+  margin:0;
+}
+
+
+.job {
+    width: auto;
+    margin: auto;
+    border-bottom:2px solid #00A1D0;
+    background-clip: padding-box;
+    border radius: 4px;
+    line-height: 1.6;
+    text-align:left;
+
+}
+
+.jobtitle {
+    text-decoration: ;
+    font-weight: bold;
+    color: #0066B6;
+    font-size: 30px;
+}
+
+.company{
+  font-size: 25px;
+  font-weight: bold;
+  color: purple;
+  float: left;
+}
+
+.jobtype{
+  font-size: 25px;
+  text-align: left;
+  color: black;
+  font-style: italic;
+}
+
+.location{
+  font-size: 20px;
+  float: right;
+  color: purple;
+}
+
+.description{
+  font-size: 18px;
+  color: black;
+}
+button {
+    background-color: #E61A70;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 60px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+.nav ul {
+  list-style: none;
+  background-color: #0d3880;
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  line-height: 40px;
+  height: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #fd0585;
+}
+
+@media screen and (min-width: 600px) {
+.nav li {
+    display: inline-block;
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    margin-right: -2px;
+}
